@@ -50,6 +50,7 @@ Newest first, based on the public LinkedIn certification listing:
 - **May 2022** — Advanced Python Programming (1) · Alibaba Cloud
 - **May 2022** — Advanced Python Programming (2) · Alibaba Cloud Global
 - **June 2021** — Alibaba Cloud DevOps Specialty
+- **Date not listed in CV** — NAT-TEST Level 5 (Japanese language)
 
 Microsoft and Alibaba Cloud validity dates are shown as listed on LinkedIn; credentials whose listed validity has ended are historical, not represented as active. [View LinkedIn certification details](https://www.linkedin.com/in/ramesh-awasthi-561b01291/details/certifications/).
 
