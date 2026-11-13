@@ -313,3 +313,5 @@ img { max-width: 100%; display: block; }
 @media(max-width:1050px){.certification-grid-all{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:820px){.project-grid-detailed{grid-template-columns:1fr}.project-grid-detailed .project-featured{grid-column:auto}.cert-featured{align-items:flex-start;flex-wrap:wrap}.cert-featured-link{margin-left:98px}}
 @media(max-width:580px){.project-grid-detailed .project-card{padding:20px}.project-grid-detailed .project-card h3{font-size:19px}.certification-grid-all{grid-template-columns:1fr}.cert-featured{padding:22px;gap:16px}.cert-featured-mark{flex-basis:58px;height:58px}.cert-featured-copy h3{font-size:18px}.cert-featured-link{margin-left:74px}.architecture-diagram-wide{overflow-x:auto}.architecture-diagram-wide svg{min-width:680px}}
+
+.language-certification-block{margin-top:22px}.language-certification-block>h3{font:800 16px/1.4 "Manrope",sans-serif;margin:0 0 12px;color:#172c43}.language-certification-block .cert-card{max-width:430px;min-height:120px}
