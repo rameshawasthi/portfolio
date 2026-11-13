@@ -1,42 +1,59 @@
-# Ramesh Awasthi — Professional Portfolio
+# Ramesh Awasthi — Infrastructure & Cloud Portfolio
 
-**Infrastructure & Cloud Engineer | 8+ Years of IT Experience | Enterprise Infrastructure | Hybrid Cloud | VMware | Networking | Monitoring**
+**Infrastructure & Cloud Engineer | 8+ years | VMware | AWS | Azure | IBM Cloud | OCI / OCVS | Enterprise Monitoring**
 
-This repository contains the source code for my English-language professional portfolio website. It presents my career history, technical capabilities, selected project experience, certifications and education.
+This is my existing English-language portfolio, designed for technical recruiters, international enterprise IT and cloud hiring managers.
 
-**Privacy:** My current employer's name, personal email address, phone number, residential address and confidential enterprise information are intentionally excluded from the public website.
+## Featured engineering experience
+- Hybrid cloud architecture assessment and migration planning
+- VMware, NSX-T and vSAN infrastructure monitoring evaluation
+- Enterprise centralized monitoring scope, alerts and operations design
+- Azure application and infrastructure migration support
+- Microsoft 365 Copilot Agent Builder meeting, email and knowledge prototypes
+- Infrastructure-as-code tooling with Terraform and Ansible
+- Multi-site enterprise infrastructure modernization and Issabel PBX
 
-## Professional focus
+## Technology stack
 
-- **Cloud & hybrid infrastructure:** AWS, Microsoft Azure, IBM Cloud, Oracle Cloud Infrastructure (OCI), Oracle Cloud VMware Solution (OCVS), DigitalOcean
-- **Virtualization:** VMware vSphere, ESXi, vCenter, vSAN, NSX-T, HCX, vMotion, Microsoft Hyper-V
-- **Systems:** Windows Server, RHEL, CentOS, Ubuntu, SUSE Linux, Active Directory, DNS, DHCP
-- **Networking & security:** Cisco, Sophos, Fortinet, Palo Alto, SonicWall, pfSense, MikroTik, Ubiquiti, VLAN, VPN
-- **Monitoring:** Zabbix, PRTG, Datadog, SolarWinds, Grafana, Azure Monitor, AWS Monitoring
-- **Automation, data & AI:** Terraform, Ansible, Shell Scripting, Azure DevOps, GitLab, Power BI, Microsoft 365 Copilot
+Cloud: AWS, Azure, IBM Cloud, OCI/OCVS, DigitalOcean  
+Virtualization: VMware vSphere, ESXi, vCenter, vSAN, NSX-T, Hyper-V  
+Infrastructure: Windows Server, Linux, Backup and Disaster Recovery  
+Networking: Cisco, routing, switching, VPN, firewall and segmentation  
+Monitoring: Zabbix, PRTG, Grafana, Datadog, SolarWinds, CloudWatch, Azure Monitor  
+Automation: Terraform, Ansible, shell scripting and Git  
+AI: Microsoft 365 Copilot, Agent Builder, Power Automate capability evaluation
 
-## Selected work
+## Website structure
 
-1. **Hybrid Cloud Migration Assessment** — assessment and planning for 300+ VMware virtual machines across IBM Cloud, OCI/OCVS and AWS.
-2. **Enterprise Centralized Monitoring** — monitoring requirements, solution evaluation, alerting principles and operating-model planning.
-3. **Microsoft 365 Copilot Agent Prototypes** — meeting intelligence, Outlook thread analysis and project knowledge retrieval.
-4. **Enterprise ETRM Migration to Azure** — Azure infrastructure, backup, disaster recovery, monitoring and migration support.
-5. **Multi-site Infrastructure Modernization** — enterprise infrastructure support across 30+ branches and five warehouse facilities.
+The existing site retains its HTML and CSS structure, Bootstrap Icons, current project sections and actual professional portrait. The improvements use a small vanilla-JavaScript navigation helper, accessible sections, conceptual diagrams, certification cards and search-engine metadata. No frontend framework, analytics, contact-form service or server code is required.
 
-Current enterprise work is generalized to protect employer and customer confidentiality. Technology depth varies by platform and includes hands-on delivery, operational support and solution evaluation.
+```text
+index.html
+assets/css/portfolio.css
+assets/js/portfolio.js
+assets/img/ramesh-profile.jpg
+assets/img/favicon.svg
+robots.txt
+sitemap.xml
+scripts/validate-site.mjs
+.github/workflows/validate-portfolio.yml
+```
 
-## Website
+## Verify locally
 
-The site uses HTML, CSS, Bootstrap Icons and a small amount of vanilla JavaScript. It is responsive and does not require a build step.
+```bash
+node scripts/validate-site.mjs
+```
 
-To preview locally:
+The check verifies internal anchors, local assets, essential metadata and privacy rules. GitHub Actions runs this on pull requests only and **does not deploy**.
 
-1. Clone this repository.
-2. Open the index.html file in a browser.
+## Privacy and deployment
 
-For GitHub Pages, open **Repository Settings → Pages** and publish the ramesh branch from the repository root if Pages is not already enabled.
+Current employer identity, personal contact information, private addresses, customer-identifying details, internal infrastructure topology and secrets are excluded. Current work is intentionally described as assessment, evaluation or prototyping rather than falsely claimed production delivery.
 
-## Connect
+GitHub Pages configuration is managed separately in repository Settings → Pages. This PR must be reviewed before merging. Existing image files and legacy template assets are preserved.
 
-- LinkedIn: https://www.linkedin.com/in/ramesh-awasthi-561b01291/
-- GitHub: https://github.com/rameshawasthi
+## Professional links
+
+- [GitHub](https://github.com/rameshawasthi)
+- [LinkedIn](https://www.linkedin.com/in/ramesh-awasthi-561b01291/)
