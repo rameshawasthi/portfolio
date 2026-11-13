@@ -1,8 +1,8 @@
 # Ramesh Awasthi — Professional Portfolio
 
-**Infrastructure & Cloud Engineer | Enterprise Systems | Networking | Monitoring | Automation & AI**
+**Infrastructure & Cloud Engineer | 5+ Years of IT Experience | Enterprise Systems | Networking | Monitoring | Automation & AI**
 
-This repository contains my personal portfolio website. It presents my professional background, technical capabilities and selected engineering work.
+This repository contains my personal portfolio website. It presents my professional background, technical capabilities and selected engineering work. My current employer is intentionally not identified in this public portfolio.
 
 ## Professional focus
 
