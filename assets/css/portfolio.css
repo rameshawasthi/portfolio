@@ -285,3 +285,31 @@ img { max-width: 100%; display: block; }
 @media(max-width:680px){.header-inner{flex-wrap:nowrap}.hero-grid{grid-template-columns:1fr;gap:38px}.certification-grid,.education-bottom{grid-template-columns:1fr}.cert-card{min-height:auto}.site-nav a{font-size:14px}}
 @media(max-width:380px){.header-link{font-size:0}.header-link i{font-size:20px}.floating-card{left:-12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project-card:hover,.button:hover{transform:none!important}}
+
+/* Detailed engineering portfolio refinement — November 2026 */
+.skill-list-detailed{font-size:12px;line-height:1.85;overflow-wrap:anywhere}
+.project-grid-detailed{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.project-grid-detailed .project-card{padding:28px;min-width:0}
+.project-grid-detailed .project-card h3{font-size:21px;line-height:1.35}
+.project-grid-detailed .project-card ul{padding-left:20px;margin:18px 0}
+.project-grid-detailed .project-card li{margin:0 0 10px;line-height:1.7}
+.project-grid-detailed .project-featured{grid-column:1/-1}
+.architecture-diagram-wide{padding:12px}.architecture-diagram-wide svg{max-height:240px}
+.cert-featured{display:flex;align-items:center;gap:24px;padding:28px 30px;margin:22px 0 32px;border-radius:18px;background:linear-gradient(120deg,#102641,#1c4263);color:#fff;box-shadow:0 18px 45px rgba(12,32,57,.15)}
+.cert-featured-mark{display:flex;align-items:center;justify-content:center;flex:0 0 74px;height:74px;border-radius:18px;background:#fff;color:#102641;font:900 20px/1 "Manrope",sans-serif;letter-spacing:-.06em}
+.cert-featured-copy{flex:1;min-width:0}.cert-featured-copy .cert-issuer{color:#8fe3d4}
+.cert-featured-copy h3{font:800 22px/1.35 "Manrope",sans-serif;margin:4px 0 8px;color:#fff}
+.cert-featured-copy p{color:#d4e2ef;margin:0 0 10px;font-size:13px}
+.cert-featured-link{display:inline-flex;align-items:center;gap:8px;color:#fff;font-size:13px;font-weight:700;white-space:nowrap}
+.cert-subheading{font:800 18px/1.4 "Manrope",sans-serif;margin:0 0 18px;color:#172c43}
+.certification-grid-all{grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.certification-grid-all .cert-card{min-height:195px;padding:18px 16px;gap:12px}
+.certification-grid-all .cert-card h3{font-size:14px;line-height:1.45}
+.cert-card-content{min-width:0}.cert-validity{font-size:11px;color:#64748b;margin:5px 0 8px;line-height:1.45}
+.cert-status{display:inline-flex;padding:4px 8px;border-radius:20px;font-size:10px;font-weight:800;line-height:1.4}
+.cert-status-current{background:#d5f5e9;color:#12614b}.cert-status-historical{background:#f0f1f3;color:#5c6470}.cert-status-learning{background:#e8efff;color:#2b4f8a}
+.cert-separator{padding:0 4px;color:#b5c8da}.cert-cta{margin-top:24px}
+.cert-cta .button{display:inline-flex;align-items:center;gap:9px}
+@media(max-width:1050px){.certification-grid-all{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:820px){.project-grid-detailed{grid-template-columns:1fr}.project-grid-detailed .project-featured{grid-column:auto}.cert-featured{align-items:flex-start;flex-wrap:wrap}.cert-featured-link{margin-left:98px}}
+@media(max-width:580px){.project-grid-detailed .project-card{padding:20px}.project-grid-detailed .project-card h3{font-size:19px}.certification-grid-all{grid-template-columns:1fr}.cert-featured{padding:22px;gap:16px}.cert-featured-mark{flex-basis:58px;height:58px}.cert-featured-copy h3{font-size:18px}.cert-featured-link{margin-left:74px}.architecture-diagram-wide{overflow-x:auto}.architecture-diagram-wide svg{min-width:680px}}
