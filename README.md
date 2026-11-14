@@ -19,8 +19,8 @@ Defined monitoring coverage and alerting requirements across VMware, NSX-T, vSAN
 ### Enterprise Energy Application Migration to Azure
 Supported migration of a business-critical energy-sector application from on-premises infrastructure to Azure. Work included dependency assessment, Azure target design, resource deployment, UAT and production validation, backup / DR, monitoring dashboards and cost analysis. Application-specific details are intentionally generalized.
 
-### Microsoft 365 Copilot Agent Business Use Cases
-Prototyped three Agent Builder use cases: meeting intelligence (minutes, decisions and action owners), Outlook email intelligence (thread summaries, requests and draft replies), and project knowledge retrieval (milestones, pending work, risks and status summaries). Outputs require human verification; these are prototypes, not autonomous production workflows.
+### Microsoft Copilot Studio Business Support Agents & Workflow Automation
+Developed and tested Microsoft Copilot Studio agents for internal business support, knowledge assistance and workflow automation scenarios. Work included configuring business-oriented instructions and approved Microsoft 365 knowledge sources; developing workflow automation use cases; and testing agent responses, workflow behavior, access controls and human validation. This describes tested business use cases, not a claim of enterprise-wide production rollout.
 
 ## Technical expertise
 
@@ -34,7 +34,7 @@ Prototyped three Agent Builder use cases: meeting intelligence (minutes, decisio
 | Systems & data | Windows Server, RHEL, CentOS, Ubuntu, SUSE, Oracle DB, SQL Server, MySQL, Veeam |
 | Networking & security | Cisco, Fortinet, Sophos, Palo Alto, SonicWall, pfSense, HAProxy, VLAN, VPN, Active Directory, Entra ID |
 | Monitoring | Zabbix, PRTG, Grafana, Datadog, SolarWinds, Azure Monitor, CloudWatch, Nagios |
-| Automation & AI | Terraform, Ansible, Shell, Git, Azure DevOps, Power Automate, Microsoft 365 Copilot Agent Builder |
+| Automation & AI | Terraform, Ansible, Shell, Git, Azure DevOps, Power Automate, Microsoft Copilot Studio |
 
 ## Professional certifications & learning
 
@@ -67,7 +67,7 @@ Microsoft and Alibaba Cloud validity dates are shown as listed on LinkedIn; cred
 
 ## Professional interests
 
-Hybrid cloud architecture, migration engineering, VMware modernization, infrastructure reliability, observability, Infrastructure as Code and responsible enterprise AI adoption.
+Hybrid cloud architecture, migration engineering, VMware modernization, infrastructure reliability, observability, Infrastructure as Code, Microsoft Copilot Studio and responsible workflow automation.
 
 **Professional links:** [LinkedIn](https://www.linkedin.com/in/ramesh-awasthi-561b01291/) · [GitHub](https://github.com/rameshawasthi)
 
